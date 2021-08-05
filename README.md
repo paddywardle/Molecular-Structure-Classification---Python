@@ -1,2 +1,4 @@
 # Molecular-Structure-Classification---Python
-In this project various preprocessing and feature engineering techniques were using to build simple and deep learning models to classify a molecules structure based on its properties.
+In this project various preprocessing and feature engineering techniques were using to build simple and deep learning models to classify a proteins structure based on its properties. This included feature engineering techniques such as mutual information, KMeans clustering and Principal Component Analysis. Simple models including K Nearest Neighbour, DecisionTree, RandomForest and XGBoost were built and tuned appropriately. Furthermore, neural networks (accounting for parameters such as drop out, to avoid overfitting and earlystopping) were also built. RandomizedSearchCV  was then used to tune the model's epochs, batch size and neurons in each layer. All models were then evaluated using metrics such as accuracy, classification report, cross-validation and confusion matrices, to see which model most accurtely predicted a molecules structure.
+
+Link to kaggle dataset: https://www.kaggle.com/shahir/protein-data-set
